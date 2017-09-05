@@ -212,10 +212,10 @@ As we are driving to Robin&#x27;s Woods, Meghan asks, &quot;who do you think is 
 &lt;&lt;choice [[&quot;I think it&#x27;s a copycat of the Gardener.&quot; -&gt;Robin&#x27;s Woods]]&gt;&gt;
 &lt;&lt;choice [[&quot;I don&#x27;t know yet, but I think Chief knows something we don&#x27;t.&quot; -&gt;Robin&#x27;s Woods][$deduction += 1]]&gt;&gt;
 &lt;&lt;choice [[&quot;I don&#x27;t know yet, but I think Chief already has a suspect.&quot; -&gt;Robin&#x27;s Woods][$deduction -= 1]]&gt;&gt;
-</tw-passagedata><tw-passagedata pid="11" name="Robin&#x27;s Woods" tags="woods" position="497,844">Meghan hmms to my theory then asks another question. 
+</tw-passagedata><tw-passagedata pid="11" name="Robin&#x27;s Woods" tags="woods" position="497,844">Meghan silently listens to my theory then asks a question. 
 &quot;Even if the perp is the copycat, how would he know about the carved [[tree bark]]? It was //never released to the public//.&quot;
 
-Our conversation stops as the car pulls over to the parking area outside of Robin&#x27;s Woods. We get off the car and walk toward the entrance. Soon after, we arrive at the exact location where Terry&#x27;s body was found. 
+Our conversation stops as the car pulls over to the parking area outside of Robin&#x27;s Woods. We get off the car and walk toward the entrance. Soon after, we arrive at the exact location where Perry&#x27;s body was found. 
 We [[look around the woods]]. 
 
 &lt;&lt;if visited(&quot;look around the woods&quot;)&gt;&gt;
@@ -241,11 +241,15 @@ We trudge around the woods looking for //something//, but nothing seems to give 
 &lt;div class=&quot;comment&quot;&gt;//Sadly, your deduction skill was not enough to find the perp.//&lt;/div&gt;
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="find" tags="woods" position="445.3333333333333,1088.6666666666663">&quot;This copycat is //trying to look like// a copycat by hitting all the right marks.&quot;
 &quot;What do you mean by //trying to look like//?&quot;
-&quot;In order to even attempt to be a copycat, he needs access to the police file to know about the tree bark tokens. Also, Robin&#x27;s Woods is full of pine trees. In this county, it&#x27;s hard to find cork trees. So this is not a new evidence, freshly made around the time of Terry&#x27;s death. This is a real token from the original Gardener, probably from the evidence room. Our perp has planted it here.&quot;
+&quot;In order to even attempt to be a copycat, he needs access to the police file to know about the tokens. Also, Robin&#x27;s Woods is full of pine trees. In this county, it&#x27;s hard to find cork trees other than the National Park. So this is not a new evidence, freshly made around the time of Perry&#x27;s death. This is a real token from the original Gardener, probably from the evidence room. Our perp has planted it here.&quot;
 &quot;You mean...&quot; Meghan trails off.
-&quot;Yes, the perp has to be one of us, police officers.&quot; I shakily finish her sentence. As much as I hate to admit, Chief Gordon&#x27;s persistent push on copycat direction comes to my mind. 
+&quot;Yes, the perp has to be one of us, police officers.&quot; I shakily finish her sentence, remembering certain someone who liked the copycat angle. 
 
-&lt;div class=&quot;comment&quot;&gt;//Congratulations! With your fine deduction skill and some snooping around, you found who&#x27;s behind Terry&#x27;s death.//&lt;/div&gt;</tw-passagedata><tw-passagedata pid="15" name="fail" tags="woods" position="306.66666666666663,1087.3333333333333">Even if we conclude that this is a copycat&#x27;s doing and motivation, it doesn&#x27;t give us any solid clue to nail the copycat. 
+It&#x27;s time to face Police Chief Gordon.
+
+&lt;div class=&quot;comment&quot;&gt;//Congratulations! With your fine deduction skill and some snooping around, you found who&#x27;s behind Perry&#x27;s death.//&lt;/div&gt;</tw-passagedata><tw-passagedata pid="15" name="fail" tags="woods" position="306.66666666666663,1087.3333333333333">Even if we conclude that this is a copycat&#x27;s doing and motivation, it doesn&#x27;t give us any solid clue to nail the copycat. 
+
+You return to the police station to gather thoughts.
 
 &lt;div class=&quot;comment&quot;&gt;//You are still clueless who might be the perp. Sadly, your deduction skill was somewhat lacking.//&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="look around the woods" tags="woods" position="145,893">The woods is //full of pine trees//, and we //cannot find a cork tree// that the perp has used.
 
@@ -255,7 +259,7 @@ We trudge around the woods looking for //something//, but nothing seems to give 
 &quot;Why isn&#x27;t one of the evidences not here?&quot; Meghan questions.
 
 &lt;&lt;choice [[Look in to the Perry&#x27;s evidence box.][$deduction +=1]]&gt;&gt;
-&lt;&lt;choice [[Go back to Chief&#x27;s room to ask about it.][$deduction +=1]]&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Look in to the Perry&#x27;s evidence box." tags="evidenceroom" position="645.3333333333334,638.6666666666666">I look in to the Terry&#x27;s evidence box, but found nothing.
+&lt;&lt;choice [[Go back to Chief&#x27;s room to ask about it.][$deduction +=1]]&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Look in to the Perry&#x27;s evidence box." tags="evidenceroom" position="645.3333333333334,638.6666666666666">I look in to the Perry&#x27;s evidence box, but found nothing.
 &quot;Huh? It&#x27;s not here. Perry&#x27;s tree bark.&quot;
 &quot;What? Why are these evidences missing?&quot;
 &quot;Something&#x27;s not right.&quot;
@@ -263,8 +267,9 @@ We trudge around the woods looking for //something//, but nothing seems to give 
 [[Go back to Chief&#x27;s room to ask about it.]]
 [[We drive out to check Robin&#x27;s Woods for further investigation. -&gt;Go outside]]</tw-passagedata><tw-passagedata pid="19" name="Go back to Chief&#x27;s room to ask about it." tags="office" position="777.3333333333334,759.6666666666666">We go back to Chief&#x27;s room to ask about it, but he is not in his room. Where could he be? 
 
-Rather than waiting for him...
-[[&quot;Let&#x27;s go to Robin&#x27;s Woods for more investigation,&quot; I suggest. -&gt;Go outside]]</tw-passagedata><tw-passagedata pid="20" name="Call the state prison to inquire about the Gardener." tags="office" position="126.66666666666663,541.3333333333333">&quot;How about we call the state prison for our peace of mind?&quot; I suggest. Both Chief and Meghan nod in agreement.
+&quot;Chief?&quot;
+I call out then... 
+//THUD// Everything is engulfed into the darkness.</tw-passagedata><tw-passagedata pid="20" name="Call the state prison to inquire about the Gardener." tags="office" position="126.66666666666663,541.3333333333333">&quot;How about we call the state prison for our peace of mind?&quot; I suggest. Both Chief and Meghan nod in agreement.
 
 &quot;Hello? This is detective XXX from Cheyenne PD. May I ask you about how the Gardener is doing?&quot;
 &quot;Hi there detective. Same old, same old. Ah, well, recently he&#x27;s gotten a new visitor though,&quot; the detention officer answers.
@@ -283,7 +288,7 @@ You decide to further pursuit this angle after gathering more information.
 &quot;The Gardener himself must have told her.&quot;
 &quot;How about the //two// missing evidences? Her alibi?&quot;
 
-Meghan has a point. Perhaps it&#x27;s hasty decisiont to name the journalist as our suspect.
+You still push for the journalist being the perp, and barges into her office. However, she really was just covering serial killers in the past two decades for a documentary. You don&#x27;t look forward to writing a report on this.
 
 &lt;div class=&quot;comment&quot;&gt;//You were very close to finding out who the real perp is, but your deduction skill was slightly lacking.//&lt;/div&gt;
 </tw-passagedata></tw-storydata></div>
